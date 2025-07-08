@@ -19,7 +19,7 @@ export default function Header() {
 
   return (
     <div className="d-flex bg-dark fixed-top" style={{ zIndex: 1030, padding: '13px 0 ' }}>
-      <img src="/Logo.jpg" width={50} height={50} alt="Logo" style={{ marginLeft: 120 }} />
+      <img src="/logo.png" width={60} height={50} alt="Logo" style={{ marginLeft: 120 }} />
       <nav>
         <ul className="nav" style={{ marginLeft: 120 }}>
           <li className="nav-item mt-1">
