@@ -1,5 +1,5 @@
 "use client"
-import '../Product-card/ProductCard.css'
+
 import Link from 'next/link'
 import { CartItem } from '../types/cart';
 
