@@ -1,6 +1,20 @@
-import "@/styles/globals.css";
-import type { AppProps } from "next/app";
+// pages/_app.tsx
+import { AppProps } from 'next/app';
+import { CartProvider } from '../components/Contexts/CartContext';
+import Header from '../components/Header/Header';
+import Footer from '@/components/Footer/Footer';
 
-export default function App({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />;
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+export default function MyApp({ Component, pageProps }: AppProps) {
+  return (
+    <CartProvider>
+      <Header />
+      
+      <div style={{ paddingTop: '80px' }}>
+        <Component {...pageProps} />
+      </div>
+      <Footer/>
+    </CartProvider>
+  );
 }
