@@ -8,7 +8,7 @@ export default function Home() {
        
        
       <div className='d-flex' >
-        <div className='mb-5 d-flex ' ><img src = "banner.jpg" height="70%" width={550}  className='"img-fluid" m-3 ' /></div>
+        <div className='mb-5 d-flex ' ><img src = "banner.jpg" height="50%" width={550}  className='"img-fluid" m-3 ' /></div>
         <div className='container'>
           <h3 className='text-white text-center bg-dark m-5 p-2' style={{backgroundColor:""}}>****************** Offer Product List ******************</h3>
           
